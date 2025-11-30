@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base page style */
+html, body, #root { height: 100%; }
+body {
+  @apply bg-brandYellow text-gray-800;
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* small helper */
+.card-shadow {
+  box-shadow: 0 6px 20px rgba(236, 239, 195, 0.756);
+}
